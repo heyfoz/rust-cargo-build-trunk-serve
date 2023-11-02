@@ -12,7 +12,7 @@ This repository contains shell scripts for macOS/Linux and PowerShell scripts fo
 
 - Rust and Cargo must be installed on your system. You can install them from [here](https://www.rust-lang.org/tools/install).
 - Trunk must be installed. Instructions can be found [here](https://trunkrs.dev/#installation).
-- For macOS/Linux: `xclip` is required for clipboard functionality on Linux.
+- For macOS/Linux: `xclip` is required for clipboard functionality.
 - For Windows: PowerShell is used to run the script.
 
 ### Installing
