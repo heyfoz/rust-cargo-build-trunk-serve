@@ -19,4 +19,4 @@ This repository contains shell scripts for macOS/Linux and PowerShell scripts fo
 
 - Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/projectname-scripts.git
+git clone https://github.com/ffm5113/rust_cargo_build_trunk_serve.git
