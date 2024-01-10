@@ -21,6 +21,12 @@ if (!(cargo build --release)) {
     exit 1
 }
 
+# Use trunk package manager to build the project with optimizations
+if ! trunk build --release; then
+echo "Trunk build failed!"
+exit 1
+fi
+
 # Navigate to the dist directory
 Set-Location $DIST_DIR
 
