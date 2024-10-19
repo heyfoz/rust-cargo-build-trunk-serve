@@ -19,10 +19,12 @@ This repository contains shell scripts for macOS/Linux and PowerShell scripts fo
 
 ### Build in Debug Mode and then Serve if Build is Successful
 ```bash
+# sh
 cargo build && trunk serve
 ```
 
 ```PowerShell
+# PowerShell
 cargo build
 if ($?) {
     trunk serve
@@ -32,10 +34,12 @@ if ($?) {
 
 ### Build in Release Mode and then Serve if Build is Successful
 ```bash
+# sh
 cargo build --release && trunk serve --release
 ```
 
 ```PowerShell
+# PowerShell
 cargo build --release
 if ($?) {
     trunk serve --release
