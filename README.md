@@ -15,14 +15,11 @@ This repository contains shell scripts for macOS/Linux and PowerShell scripts fo
 - For macOS/Linux: `xclip` is required for clipboard functionality.
 - For Windows: PowerShell is used to run the script.
 
-### Common Commands
+## Common Commands
 
+### Build in Debug Mode and then Serve if Build is Successful
 ```bash
-# Build in Debug Mode and then Serve if Build is Successful
 cargo build && trunk serve
-
-# Build in Release Mode and then Serve if Build is Successful
-cargo build --release && trunk serve --release
 ```
 
 ```PowerShell
@@ -30,8 +27,15 @@ cargo build
 if ($?) {
     trunk serve
 }
+```
 
-# Build in Release Mode and then Serve if Build is Successful
+
+### Build in Release Mode and then Serve if Build is Successful
+```bash
+cargo build --release && trunk serve --release
+```
+
+```PowerShell
 cargo build --release
 if ($?) {
     trunk serve --release
