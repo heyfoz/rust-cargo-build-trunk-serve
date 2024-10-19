@@ -1,0 +1,25 @@
+# Basic Trunk.toml example
+
+[build]
+# The output directory for the build artifacts.
+dist = "dist"
+
+# The directory containing your static assets.
+static_dir = "static"
+
+# The file to use as the entry point for your application.
+index = "index.html"
+
+[watch]
+# Directories to watch for changes.
+watch_dirs = ["src", "static"]
+
+[serve]
+# The address to serve the application.
+address = "127.0.0.1"
+
+# The port to serve the application.
+port = 8080
+
+# Whether to open the application in the default web browser.
+open = true
