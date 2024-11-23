@@ -19,6 +19,7 @@ This repository contains shell scripts for macOS/Linux and PowerShell scripts fo
 
 ### Build in Debug Mode and Create WASM Target Dir
 ```
+# sh or PowerShell
 cargo build --target=wasm32-unknown-unknown
 ```
 
